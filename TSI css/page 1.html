@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/homeStyle.css">
+    <script defer src="index.js" charset="utf-8"></script>
 </head>
-<body>
+<body id = "main">
     <div>
     <heading>
-
             <p><i><b><h1>TSI needs to play Starcraft 2!</h1></b></i></p>
             <p><h2> The worlds premiere software consultancy cohort should play the worlds premiere competetive RTS</h2></p>
 
@@ -100,13 +100,41 @@
                     
                 </td>
             </tr>
+            <tr>
+                <td id = "game1">
+                <button type="button" onclick="loadgame1()">Load game 1</button>
+                <div id = "game1div">
+
+                </div>
+                </td>
+                <td id = "game2">
+                <button type="button" onclick="loadgame2()">Load game 2</button>
+                <div id = "game2div">
+
+                </div>
+                </td>  
+                <td id = "game3">
+                <button type="button" onclick="loadgame3()">Load game 3</button>
+                <div id = "game3div">
+
+                </div>  
+                </td>
+            </tr>
+            <tr>
+                <p>
+                    The series also has some seriously good music<br>
+                    Check this out!
+                </p>
+            </tr>
+            <tr>
+                <tc>
+                    <button type="button" onclick="playAudio()">Play</button>
+                </tc>
+                <tc>
+                    <button type="button" onclick="pauseAudio()">Pause</button>
+                </tc>
+            </tr>
           </table> 
-        let proPlayer = {name:"WhiteRa", race:"protoss"};
-        let mult = (x,y) => x*y;
-        <p id="demo">
-        </p> 
-        document.getElementById('demo').innerHTML = proPlayer.name + " "" + proPlayer.race;
-        </div>
         <hr size="10" width="40%" color="black">   
         
        
