@@ -80,24 +80,26 @@
             <tr>
                 <td>
                     <p id = "protoss">Strategy is difficult</p>
-                    <button type="button" onclick="document.getElementById('protoss').innerHTML= 'void rays IMBA'; 
-                    document.getElementById('Terran').innerHTML= 'Strategy is difficult';
-                    document.getElementById('Zerg').innerHTML= 'Strategy is difficult'">Help me! </button>
+                    <button type="button" onclick=getProtossGuide()>Help me! </button>
+                    <div id = "protossGuide">
+
+                    </div>
                     
                 </td>
                 <td>
                     <p id = "Terran">Strategy is difficult</p>
-                    <button type="button" onclick="document.getElementById('Terran').innerHTML= 'Marine, Marauder, Medivac'; 
-                    document.getElementById('protoss').innerHTML= 'Strategy is difficult';
-                    document.getElementById('Zerg').innerHTML= 'Strategy is difficult'">Help me! </button>
+                    <button type="button" onclick=getTerranGuide()>Help me! </button>
+                    <div id = "terranGuide">
+                        
+                    </div>
                     
                 </td>
                 <td>
                     <p id = "Zerg">Strategy is difficult</p>
-                    <button type="button" onclick="document.getElementById('Zerg').innerHTML= 'Lurkers';
-                    document.getElementById('Terran').innerHTML= 'Strategy is difficult';
-                    document.getElementById('protoss').innerHTML= 'Strategy is difficult'">Help me! </button>
-                    
+                    <button type="button" onclick=getZergGuide()> Help me! </button>
+                    <div id = "zergGuide">
+
+                    </div> 
                 </td>
             </tr>
             <tr>
