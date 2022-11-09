@@ -22,6 +22,8 @@ function playAudio() {
 function pauseAudio() {
   audio.pause();
 }
+
+
 const options = {
 	method: 'GET',
 	headers: {
